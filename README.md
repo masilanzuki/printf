@@ -41,17 +41,17 @@ The available convertion specifiers are:
 
 Usage
 
-All the files are to be compiled on Ubuntu 14.04 LTS
+All the files are to be compiled on Ubuntu 20.04 LTS
 
 Compile your code with gcc -Wall -Werror -Wextra -pedantic *.c
 
-Include the "holberton.h" header file on the functions using the _printf()
+Include the "main.h" header file on the functions using the _printf()
 
 Example
 
 
 
-#include "holberton.h"
+#include "main.h"
 
 #include <stdio.h>
 
@@ -81,7 +81,7 @@ int main(void)
 
 	str = "school";
 
-	a = _printf("%r\n", "Holberton"); /*expected: notrebloh*/
+	a = _printf("%r\n", "main"); /*expected: notrebloh*/
 
 	printf("--->%d\n", a); /*expected: 10*/
 
